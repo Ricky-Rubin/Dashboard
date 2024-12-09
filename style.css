@@ -13,7 +13,7 @@ html {
     display: grid;
     height: 100%;
     grid-template-columns: 1.4fr 5fr;
-    grid-template-rows: 170px 2fr 2fr;
+    grid-template-rows: 160px 2fr 2fr;
     overflow: auto;
 }
 
@@ -66,7 +66,6 @@ html {
     display: grid;
     height: 150px;
     padding: 0px 6px;
-    /* background-color: white; */
 }
 
 .space {
@@ -96,7 +95,7 @@ html {
 }
 
 .icon-tag:hover {
-    /* height: 46px; not needed. The height defined for the icon-tag will remain for the hover effect.*/
+    /* height: 46px; not needed. Thjustify-content: space-around;e height defined for the icon-tag will remain for the hover effect.*/
     width: 90%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -109,4 +108,113 @@ html {
     font-size: 21px;
     margin-left: 27px;
     font-weight: bold;
+}
+
+.header {
+    /* display: flex; */
+    padding: 5px 40px;
+    flex-direction: column;
+}
+
+.head-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.top {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top1 {
+    display: flex;
+}
+
+.top2 {
+    display: flex;
+    /* grid-auto-flow: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-bar {
+    height: 24px;
+    width: 550px;
+    border-radius: 12px;
+    background-color: rgb(235, 231, 231);
+    margin-left: 20px;
+}
+
+.search-icon {
+    margin-top: 5px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29a2eeeb-90f8-4990-b4b1-5e0d6f0db916/dgkhrmz-0b5a672d-7e8c-4dea-84b1-8f9fc76bf5cb.jpg/v1/fill/w_1280,h_1280,q_75,strp/pikachu_wallpaper_pokemon_by_anidrawnet_dgkhrmz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzI5YTJlZWViLTkwZjgtNDk5MC1iNGIxLTVlMGQ2ZjBkYjkxNlwvZGdraHJtei0wYjVhNjcyZC03ZThjLTRkZWEtODRiMS04ZjlmYzc2YmY1Y2IuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iu3jihEH1cP5OtpYhGg1pz1VzOHrAZmaMOOrQmK8-aQ');
+    background-size: cover;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bottom {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -8px;
+}
+
+.bottom1 {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.bottom2 {
+    /* display: flex; */
+    /* grid-auto-flow: column; */
+    /* align-items: center; */
+}
+
+.bigger-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 15px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29a2eeeb-90f8-4990-b4b1-5e0d6f0db916/dgkhrmz-0b5a672d-7e8c-4dea-84b1-8f9fc76bf5cb.jpg/v1/fill/w_1280,h_1280,q_75,strp/pikachu_wallpaper_pokemon_by_anidrawnet_dgkhrmz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzI5YTJlZWViLTkwZjgtNDk5MC1iNGIxLTVlMGQ2ZjBkYjkxNlwvZGdraHJtei0wYjVhNjcyZC03ZThjLTRkZWEtODRiMS04ZjlmYzc2YmY1Y2IuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iu3jihEH1cP5OtpYhGg1pz1VzOHrAZmaMOOrQmK8-aQ');
+    background-size: cover;
+}
+
+.small-text {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.big-text {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.btn {
+    /* padding: 8px 25px; */
+    width: 80px;
+    height: 34px;
+    font-size: 15px;
+    margin: 0px 15px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #0284c7;
+    font-weight: 600;
 }
