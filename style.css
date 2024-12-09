@@ -63,8 +63,10 @@ html {
 }
 
 .settings-tab {
-    min-height: 200px;
-    background-color: white;
+    display: grid;
+    height: 150px;
+    padding: 0px 6px;
+    /* background-color: white; */
 }
 
 .space {
@@ -90,14 +92,17 @@ html {
     margin-top:-20px;
     color: white;
     padding: 0px 4px;
-    height: 46px;
+    height: 43px;
 }
 
 .icon-tag:hover {
-    height: 46px;
-    width: 80%;
+    /* height: 46px; not needed. The height defined for the icon-tag will remain for the hover effect.*/
+    width: 90%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.4s ease;
 }
 
 .sidebar-text {
