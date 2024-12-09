@@ -2,22 +2,29 @@
 
 body,
 html {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    overflow: auto;
+    font-family: Roboto;
 }
 
 .container {
     display: grid;
     height: 100%;
-    grid-template-columns: 1.1fr 5fr;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 1.4fr 5fr;
+    grid-template-rows: 170px 2fr 2fr;
+    overflow: auto;
 }
 
 .sidebar {
+    display: grid;
     grid-area: 1 / 1 / 4 / 2;
-    background-color: rgb(106, 198, 255);
+    background-color: #0ea5e9;
     box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.3); 
     z-index: 1;
+    grid-auto-flow: row;
+    gap: 50px;
+    padding: 2px 30px;
 }
 
 .header {
@@ -31,4 +38,39 @@ html {
     grid-area: 2 / 2 / 4 / 3;
     background-color: rgb(243, 239, 239);
     z-index: -1;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 9px;
+}
+
+.user-tabs {
+    height: 200px;
+    background-color: white;
+}
+
+.settings-tab {
+    height: 200px;
+    background-color: white;
+}
+
+.space {
+    height: 200px;
+    background-color: #0ea5e9;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    fill: white;
 }
