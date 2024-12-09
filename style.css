@@ -24,7 +24,7 @@ html {
     box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.3); 
     z-index: 1;
     grid-auto-flow: row;
-    gap: 35px;
+    gap: 45px;
     padding: 2px 30px;
 }
 
@@ -89,6 +89,15 @@ html {
     align-items: center;
     margin-top:-20px;
     color: white;
+    padding: 0px 4px;
+    height: 46px;
+}
+
+.icon-tag:hover {
+    height: 46px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .sidebar-text {
