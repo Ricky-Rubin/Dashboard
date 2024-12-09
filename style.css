@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body,
 html {
     min-height: 100vh;
     margin: 0;
     overflow: auto;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -19,11 +20,11 @@ html {
 .sidebar {
     display: grid;
     grid-area: 1 / 1 / 4 / 2;
-    background-color: #0ea5e9;
+    background-color: #0284c7;
     box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.3); 
     z-index: 1;
     grid-auto-flow: row;
-    gap: 50px;
+    gap: 35px;
     padding: 2px 30px;
 }
 
@@ -56,32 +57,42 @@ html {
 
 .user-tabs {
     display: grid;
-    height: 200px;
-    background-color: white;
+    height: 290px;
     grid-auto-flow: row;
+    padding: 0px 6px;
 }
 
 .settings-tab {
-    height: 200px;
+    min-height: 200px;
     background-color: white;
 }
 
 .space {
-    height: 200px;
+    min-height: 200px;
     background-color: #0ea5e9;
 }
 
 .icon {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     fill: white;
 }
-.home {
-    display: flex;
-    align-items: center;
+
+.sidebar-icon {
+    width: 22px;
+    height: 22px;
+    fill: white;
 }
 
-.home-icon {
-    width: 25px;
-    height: 25px;
+.icon-tag {
+    display: flex;
+    align-items: center;
+    margin-top:-20px;
+    color: white;
+}
+
+.sidebar-text {
+    font-size: 21px;
+    margin-left: 27px;
+    font-weight: bold;
 }
