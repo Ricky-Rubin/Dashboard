@@ -49,7 +49,7 @@ html {
     margin-bottom: 40px;
 }
 
-.text {
+.dash-text {
     font-size: 30px;
     font-weight: 600;
     margin: 0px 9px;
@@ -238,6 +238,7 @@ html {
     font-size: 20px;
     margin-left: 0px;
     font-weight: 500;
+    margin: 0px 9px;
 }
 
 .slabs {
@@ -265,9 +266,19 @@ html {
     gap: 20px;
 }
 
-.portal {
+.announcement {
+    /* display: grid; */
     width: 85%;
-    min-height: 275px;
+    height: 275px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 12px 25px;
+}
+
+.trending {
+    width: 85%;
+    height: 287px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
@@ -307,21 +318,69 @@ html {
     justify-content: end;
 }
 
-.portal > div {
-    /* height: 100px; */
-    /* font-size: 13px; */
-}
-
 .head {
     font-size: 15px;
     width: 100%;
     height: 10px;
     font-weight: 600;
-
 }
 
 .wing {
     font-size: 11px;
     margin-top: -5px;
     margin-bottom: 15px;
+}
+
+.pic {
+    width: 53px;
+    height: 53px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+.housing {
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+.second {
+    margin-top: -15px;
+}
+
+.pic {
+    margin-right: 15px;
+}
+
+.texts {
+    line-height: 0.2;
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.normal {
+    color: rgb(124, 119, 119);
+}
+
+.user-one {
+    background-image: url('https://image.made-in-china.com/202f0j00AoIWcqHMkyGC/Pokemon-Battle-Hard-Enamel-Pin-Spinning-High-Quality-Lapel-Pins-Free-Design-Custom-Cartoon-Gold-Plated-Pins-Europe-Folk-Art.webp');
+    background-size: cover;
+}
+
+.user-two {
+    background-image: url('https://img.freepik.com/free-photo/view-3d-animated-cartoon-bird_23-2150946589.jpg');
+    background-size: cover;
+}
+
+.user-three {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29a2eeeb-90f8-4990-b4b1-5e0d6f0db916/dgkhrmz-0b5a672d-7e8c-4dea-84b1-8f9fc76bf5cb.jpg/v1/fill/w_1280,h_1280,q_75,strp/pikachu_wallpaper_pokemon_by_anidrawnet_dgkhrmz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzI5YTJlZWViLTkwZjgtNDk5MC1iNGIxLTVlMGQ2ZjBkYjkxNlwvZGdraHJtei0wYjVhNjcyZC03ZThjLTRkZWEtODRiMS04ZjlmYzc2YmY1Y2IuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iu3jihEH1cP5OtpYhGg1pz1VzOHrAZmaMOOrQmK8-aQ');
+    background-size: cover;
+}
+
+.user-four {
+    background-image: url('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af266703-910a-4f3b-91e0-25918eef6941/width=450/42673-141474681-masterpiece,%20high%20quality%20best%20quality,1girl,artist_name,%20bare_tree,%20branch,%20company_name,%20forest,%20glasses,%20gloves,%20hat,%20ivy,%20ju.jpeg');
+    background-size: cover;
 }
